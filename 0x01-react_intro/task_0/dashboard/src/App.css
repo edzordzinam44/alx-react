@@ -54,6 +54,9 @@ hr {
 
 .paint {
   background-color: #630808;
+  position: absolute;
+  top: 30%;
+  width: 10000px;
 }
 
 .footer-copyright {
