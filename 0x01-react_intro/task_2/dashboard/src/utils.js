@@ -1,4 +1,4 @@
-// utils.js
+//utils.js
 
 /* Function to get the current year */
 function getFullYear() {
@@ -13,8 +13,12 @@ function getFooterCopy(isIndex) {
   }
 }
 
+function getLatestNotification() {
+  return '<strong>Urgent requirement</strong> - complete by EOD';
+}
 // Export functions so they can be used in other files
 module.export = {
   getFullYear,
-  getFooterCopy
+  getFooterCopy,
+  getLatestNotification
 };
