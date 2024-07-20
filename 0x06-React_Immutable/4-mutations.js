@@ -1,3 +1,5 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable semi */
 import { Map } from 'immutable';
 
 export const map = Map({

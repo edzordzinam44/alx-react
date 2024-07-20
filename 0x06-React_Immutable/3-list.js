@@ -1,3 +1,5 @@
+/* eslint-disable space-before-function-paren */
+/* eslint-disable semi */
 import { List } from 'immutable';
 
 export function getListObject(array) {
