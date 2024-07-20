@@ -1,3 +1,5 @@
+/* eslint-disable space-before-function-paren */
+/* eslint-disable semi */
 import { Seq } from 'immutable';
 
 export default function printBestStudents(data) {
