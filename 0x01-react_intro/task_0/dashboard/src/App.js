@@ -1,23 +1,23 @@
-import React from 'react';
-import holbertonLogo from './holberton-logo.png';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* App-header */}
       <header className="App-header">
-        <img src={holbertonLogo} className="App-logo" alt="Holberton logo"/>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
-
-      {/* App-body */}
-      <div className="App-body">
-        <p>Login to access the full dashboard</p>
-      </div>
-
-      {/* App-footer */}
-      <div className="App-footer">
-        <p>Copyright 2020 - Holberton School</p>
-      </div>
     </div>
   );
 }
