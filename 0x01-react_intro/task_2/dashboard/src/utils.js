@@ -1,24 +1,13 @@
-//utils.js
-
-/* Function to get the current year */
-function getFullYear() {
-  return new Date().getFullYear();
+function getFullYear () {
+    const currentYear = new Date().getFullYear();
+    return currentYear;
 }
+ function getFooterCopy(isIndex) {
+    if (isIndex) {
+        return 'Holberton School';
+    } else {
+        return 'Holberton School main dashboard';
+    }
+ }
 
-function getFooterCopy(isIndex) {
-  if (isIndex) {
-	return "Holberton School";
-  } else {
-	  return "Holberton School main dashboard";
-  }
-}
-
-function getLatestNotification() {
-  return '<strong>Urgent requirement</strong> - complete by EOD';
-}
-// Export functions so they can be used in other files
-module.export = {
-  getFullYear,
-  getFooterCopy,
-  getLatestNotification
-};
+export { getFullYear, getFooterCopy };

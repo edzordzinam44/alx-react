@@ -1,32 +1,31 @@
-import React from 'react';
+import logo from './holberton_logo.png';
+import './utils.js';
 import './App.css';
-import holbertonLogo from './assets/holberton-logo.png';
-import { getFullYear, getFooterCopy } from './utils.js';
 
 function App() {
   return (
     <div className="App">
-      {/* App-header */}
       <header className="App-header">
-        <img src={holbertonLogo} className="App-logo" alt="Holberton logo"/>
+        <img src={logo} alt="Logo" />
+        <h1>School Holberton</h1>
       </header>
-
-      {/* App-body */}
-      <div className="App-body">
+      <hr id="hr" />
+      <main className="App-body">
         <p>Login to access the full dashboard</p>
-	  <form>
-	    <label htmlFor='email'>Email:</label>
-	      <input type='email' name='email'></input>
-	      <label htmlFor='password'>Password:</label>
-	      <input type='password' name='password'></input>
-	      <button>OK</button>
-	  </form>
-      </div>
-
-      {/* App-footer */}
-      <div className="App-footer">
-        <p>Copyright {getFullYear} - {getFooterCopy(true)}</p>
-      </div>
+        <div>
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div>
+          <label htmlFor="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <button type="submit">OK</button>
+      </main>
+      <footer className="App-footer">
+        <hr id="hr-footer" />
+        <p className="footer-p">Copyright 2020 - Holberton School</p>
+      </footer>
     </div>
   );
 }
