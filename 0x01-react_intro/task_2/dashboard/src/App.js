@@ -1,6 +1,7 @@
 import logo from './holberton_logo.png';
 import './utils.js';
 import './App.css';
+import './Notifications.js';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <img src={logo} alt="Logo" />
         <h1>School Holberton</h1>
       </header>
-      <hr id="hr" />
+      {/* <hr id="hr" /> */}
       <main className="App-body">
         <p>Login to access the full dashboard</p>
         <div>
@@ -17,13 +18,13 @@ function App() {
           <input type="email" id="email" name="email" />
         </div>
         <div>
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" />
+          <label htmlFor="password" id='password'>Password:</label>
+          <input type="password" id="password" name="password" required/>
         </div>
         <button type="submit">OK</button>
       </main>
       <footer className="App-footer">
-        <hr id="hr-footer" />
+        {/* <hr id="hr-footer" /> */}
         <p className="footer-p">Copyright 2020 - Holberton School</p>
       </footer>
     </div>

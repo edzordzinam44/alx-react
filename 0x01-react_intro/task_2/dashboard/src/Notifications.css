@@ -1,4 +1,15 @@
 .Notifications {
     padding: 20px;
-    border: 3px solid #df2929;
+    border: 3px dotted #df2929;
+    position: absolute;
+    top: 0;
+    width: 95%;
+}
+
+[data-priority="urgent"] {
+    color: red;
+}
+
+[data-priority="default"] {
+    color: blue;
 }
