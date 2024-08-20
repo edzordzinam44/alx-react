@@ -1,20 +1,27 @@
 ### React intro
-## Concepts:
-# React:
+
+## Concepts
+
+# React
+
 # Resources
-# Read:
-	React Official Website
-	Getting started with React
-	Quick Start with React
-	create-react-app
-	React Developer Tools
-	What is Babel?
-	Enzyme
-## More insights:
-	How to create a basic Javascript application using React
-	How to use the package create-react-app to start developing quickly with React
-	What JSX is and how to use it
-	How to use the React Developer Tools to debug your code
-	How to use Enzyme’s Shadow rendering to test your application
-	How to use React with Webpack & Babel
+
+# Read
+
+ React Official Website
+ Getting started with React
+ Quick Start with React
+ create-react-app
+ React Developer Tools
+ What is Babel?
+ Enzyme
+
+## More insights
+
+ How to create a basic Javascript application using React
+ How to use the package create-react-app to start developing quickly with React
+ What JSX is and how to use it
+ How to use the React Developer Tools to debug your code
+ How to use Enzyme’s Shadow rendering to test your application
+ How to use React with Webpack & Babel
 # Happy Coding
