@@ -90,6 +90,7 @@ h1 {
   position: absolute;
   top: 25%;
   width: 100%;
+  /* padding-top: 16px; */
 }
 
 .App-header img {
