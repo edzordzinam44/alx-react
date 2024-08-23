@@ -107,6 +107,13 @@ h1 {
   top: 45%;
 }
 
+label, input, button {
+  display: inline-block;
+  align-items: center;
+  gap: 10px;
+
+}
+
 .App-body p {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
