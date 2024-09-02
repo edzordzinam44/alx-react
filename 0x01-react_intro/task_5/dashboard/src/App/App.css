@@ -1,0 +1,144 @@
+/* .App {
+  font-family: Verdana;
+} * {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 150px;
+}
+
+h1 {
+  padding-left: 250px;
+  position: absolute;
+  top: 100px;
+  color: rgb(161, 32, 32);
+}
+
+#hr {
+  background-color: red;
+  height: 3px;
+}
+.App-body {
+  font-family: verdana;
+  margin: 0;
+}
+
+.App-body p {
+  left: 10%;
+  padding-top: 0%;
+  font-size: large;
+  text-decoration: underline;
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .App-footer {
+  position: absolute;
+  background-color: #000;
+  width: 100%;
+  color: rgb(161, 32, 32);
+  height: 10vh;
+  bottom: 0;
+}
+
+#hr-footer {
+  background-color: rgb(255, 0, 0);
+  height: 3px;
+  bottom: 4rem;
+  position: absolute;
+  width: 100%;
+}
+
+.App-footer .footer-p{
+  position: absolute;
+  left: 45%;
+  bottom: 50%;
+  color: rgb(161, 32, 32);
+} */
+
+.App-header {
+  display: flex;
+  color: #e0344a;
+  align-items: center;
+  border-bottom: thick solid #e0344a;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  /* padding-top: 16px; */
+}
+
+.App-header img {
+  width: 144px;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+.App-body {
+  padding: 16px 24px;
+  position: absolute;
+  top: 45%;
+}
+
+label, input, button {
+  display: inline-block;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.App-body p {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.App-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  border-top: thick solid #e0344a;
+}
+
+.App-body label, input, button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* #password {
+  padding: 5px;
+} */
